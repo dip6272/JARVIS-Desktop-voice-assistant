@@ -35,8 +35,9 @@ Refer to the [command.txt](command.txt) file for a list of supported commands.
 2. Use the GUI to interact with JARVIS. You can type queries or use the `Speak` button to give voice commands.
 
 ## Screenshots
+![Screenshot 2024-03-30 115959](https://github.com/user-attachments/assets/b0dd27aa-6481-4a62-b690-3de8cf9c45ec)
 
-![JARVIS Assistant](images/jarvis_assistant.png)
+
 
 ## License
 
