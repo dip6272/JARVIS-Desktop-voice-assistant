@@ -1,7 +1,6 @@
 import tkinter as tk
 import speech_recognition as sr
 import pyttsx3 #pip install pyttsx3
-import speech_recognition as sr #pip install speechRecognition
 import datetime
 import wikipedia #pip install wikipedia
 import webbrowser
@@ -80,6 +79,8 @@ def take_voice_input():
             text_entry.delete(0, tk.END)
             text_entry.insert(0, query)
         except Exception as e:
+            print(e)
+            speak("Say that again please...")
             print("Say that again please...")
             return query
 
@@ -199,6 +200,7 @@ def on_button_click(button_text):
                 print(search)
 
             except Exception as e:
+                print(e)
                 speak("Can't open now, please try again later.")
                 print("Can't open now, please try again later.")
             
